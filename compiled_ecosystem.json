@@ -1,4 +1,13 @@
 {
+  "iui": {
+    "crates_io": "https://crates.io/crates/iui",
+    "repo": "https://github.com/LeoTindall/libui-rs",
+    "description": "Simple, small, easy to distribute GUI bindings.",
+    "docs": "https://docs.rs/iui/",
+    "tags": [
+      "Bindings"
+    ]
+  },
   "OrbTk": {
     "crates_io": "https://crates.io/crates/OrbTk",
     "repo": "https://github.com/redox-os/orbtk",
@@ -43,15 +52,6 @@
       "GTK"
     ]
   },
-  "druid": {
-    "crates_io": "https://crates.io/crates/druid",
-    "repo": "https://github.com/xi-editor/druid",
-    "description": "Druid is a new Rust-native UI toolkit, still in early stages. Its main goal is performance, also aiming for small binary size and compile time, fast startup, and very easy build configuration (just cargo run). It is currently supporting Windows and macOS, with hope to support more in the future.",
-    "docs": null,
-    "tags": [
-      "piet"
-    ]
-  },
   "Azul": {
     "crates_io": "https://crates.io/crates/Azul",
     "repo": "https://github.com/maps4print/azul",
@@ -83,11 +83,21 @@
       "proc-macro"
     ]
   },
+  "imgui": {
+    "crates_io": "https://crates.io/crates/imgui",
+    "repo": "https://github.com/imgui-rs/imgui-rs",
+    "description": "High-level Rust bindings to dear imgui",
+    "docs": null,
+    "tags": [
+      "Bindings",
+      "Immediate mode API"
+    ]
+  },
   "conrod-core": {
     "crates_io": "https://crates.io/crates/conrod-core",
     "repo": "https://github.com/pistondevelopers/conrod.git",
     "description": "An easy-to-use, 100% Rust, extensible 2D GUI library.",
-    "docs": "https://docs.rs/conrod_core/latest",
+    "docs": null,
     "tags": [
       "Immediate mode API"
     ]
@@ -131,14 +141,13 @@
       "WebRender"
     ]
   },
-  "imgui": {
-    "crates_io": "https://crates.io/crates/imgui",
-    "repo": "https://github.com/Gekkio/imgui-rs",
-    "description": "High-level Rust bindings to dear imgui",
+  "druid": {
+    "crates_io": "https://crates.io/crates/druid",
+    "repo": "https://github.com/xi-editor/druid",
+    "description": "Druid is a new Rust-native UI toolkit, still in early stages. Its main goal is performance, also aiming for small binary size and compile time, fast startup, and very easy build configuration (just cargo run). It is currently supporting Windows and macOS, with hope to support more in the future.",
     "docs": null,
     "tags": [
-      "Bindings",
-      "Immediate mode API"
+      "piet"
     ]
   },
   "core-foundation": {
