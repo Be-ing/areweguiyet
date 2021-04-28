@@ -112,6 +112,17 @@
       "FLTK"
     ]
   },
+  "native-windows-gui": {
+    "crates_io": "https://crates.io/crates/native-windows-gui",
+    "repo": "https://github.com/gabdube/native-windows-gui",
+    "description": "A very light and simple rust GUI library",
+    "docs": "https://gabdube.github.io/native-windows-gui/native-windows-docs/index.html",
+    "tags": [
+      "Bindings",
+      "proc-macro",
+      "WinApi"
+    ]
+  },
   "qt_widgets": {
     "crates_io": "https://crates.io/crates/qt_widgets",
     "repo": "https://github.com/rust-qt/ritual",
@@ -141,15 +152,6 @@
       "WebRender"
     ]
   },
-  "druid": {
-    "crates_io": "https://crates.io/crates/druid",
-    "repo": "https://github.com/linebender/druid",
-    "description": "Druid is an experimental Rust-native UI toolkit. Its main goal is to offer a polished user experience. There are many factors to this goal, including performance, a rich palette of interactions (hence a widget library to support them), and playing well with the native platform.",
-    "docs": null,
-    "tags": [
-      "piet"
-    ]
-  },
   "core-foundation": {
     "crates_io": "https://crates.io/crates/core-foundation",
     "repo": "https://github.com/servo/core-foundation-rs",
@@ -157,6 +159,15 @@
     "docs": "https://docs.rs/core-foundation/0.6.4/core_foundation/",
     "tags": [
       "MacOS"
+    ]
+  },
+  "druid": {
+    "crates_io": "https://crates.io/crates/druid",
+    "repo": "https://github.com/linebender/druid",
+    "description": "Druid is an experimental Rust-native UI toolkit. Its main goal is to offer a polished user experience. There are many factors to this goal, including performance, a rich palette of interactions (hence a widget library to support them), and playing well with the native platform.",
+    "docs": null,
+    "tags": [
+      "piet"
     ]
   },
   "qmetaobject": {
