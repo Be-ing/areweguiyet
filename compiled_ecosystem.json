@@ -104,7 +104,7 @@
   },
   "fltk": {
     "crates_io": "https://crates.io/crates/fltk",
-    "repo": "https://github.com/MoAlyousef/fltk-rs",
+    "repo": "https://github.com/fltk-rs/fltk-rs",
     "description": "The FLTK crate is a crossplatform lightweight gui library which can be linked to statically to produce small, self-contained and fast binaries",
     "docs": "https://docs.rs/fltk",
     "tags": [
