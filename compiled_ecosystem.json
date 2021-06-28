@@ -206,7 +206,7 @@
   },
   "GTK": {
     "crates_io": "https://crates.io/crates/GTK",
-    "repo": "https://github.com/gtk-rs/gtk",
+    "repo": "https://github.com/gtk-rs/gtk3-rs",
     "description": "Rust bindings and wrappers for GLib, GDK 3, GTK+ 3 and Cairo.",
     "docs": "https://gtk-rs.org/docs-src/",
     "tags": [
