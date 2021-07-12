@@ -115,7 +115,7 @@
   "native-windows-gui": {
     "crates_io": "https://crates.io/crates/native-windows-gui",
     "repo": "https://github.com/gabdube/native-windows-gui",
-    "description": "A very light and simple rust GUI library",
+    "description": "A rust library to develop native GUI applications on the desktop for Microsoft Windows. Native-windows-gui wraps the native win32 window controls in a rustic API",
     "docs": "https://gabdube.github.io/native-windows-gui/native-windows-docs/index.html",
     "tags": [
       "Bindings",
