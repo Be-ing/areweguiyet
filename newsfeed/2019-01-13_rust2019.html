@@ -135,9 +135,9 @@
 <li>like native with ICP/FFI and a C/C++/Python frontend</li>
 <li>examples:
 <ul>
-<li><a href="https://www.vandenoever.info/blog/2018/09/16/browsing_your_mail_with_rust_and_qt.html">qt rust binding generator</a></li>
-<li><a href="https://github.com/woboq/qmetaobject-rs">qmetaobject-rs</a> ( Do not miss the Fosdem-Session <a href="https://fosdem.org/2019/schedule/event/rust_cpp/">Call C++ from Rust</a> )</li>
-<li>(dead?) <a href="https://github.com/cyndis/qmlrs">qml-rs</a>, <a href="https://github.com/White-Oak/qml-rust">qml-rust</a> ...</li>
+<li><a href="https://www.vandenoever.info/blog/2018/09/16/browsing_your_mail_with_rust_and_qt.html">Rust Qt Binding Generator</a></li>
+<li><a href="https://github.com/woboq/qmetaobject-rs">qmetaobject-rs</a> (Do not miss the Fosdem talk <a href="https://fosdem.org/2019/schedule/event/rust_cpp/">Call C++ from Rust</a>)</li>
+<li>(Abandoned) <a href="https://github.com/cyndis/qmlrs">qml-rs</a>, <a href="https://github.com/White-Oak/qml-rust">qml-rust</a></li>
 </ul>
 </li>
 </ul>
@@ -147,7 +147,7 @@
 <li>like native with IPC/FFI and C/Vala frontend</li>
 <li>examples:
 <ul>
-<li><a href="http://gtk-rs.org/">Gtk-rs</a> ( Do not miss the Fosdem-Sessions <a href="https://fosdem.org/2019/schedule/event/rust_gnome/">Rust and GNOME</a> | <a href="https://fosdem.org/2019/schedule/event/rust_gtk_rs/">Gtk-rs</a> | <a href="https://fosdem.org/2019/schedule/event/rust_gstreamer/">GTK+ &amp; GStreamer</a> )</li>
+<li><a href="http://gtk-rs.org/">Gtk-rs</a> (Do not miss the Fosdem talks <a href="https://fosdem.org/2019/schedule/event/rust_gnome/">Rust and GNOME</a> | <a href="https://fosdem.org/2019/schedule/event/rust_gtk_rs/">Gtk-rs</a> | <a href="https://fosdem.org/2019/schedule/event/rust_gstreamer/">GTK+ &amp; GStreamer</a>)</li>
 <li><a href="https://github.com/antoyo/relm">relm</a></li>
 </ul>
 </li>
@@ -155,7 +155,7 @@
 </li>
 <li>wx, libui/iui ...</li>
 </ul>
-<p>These are currently the next best options. <code>Qt Rust Binding Generator</code> and <code>QMetaObject-rs</code> are currently the most advanced projects for Qt and the way to go if you really want to stay with Rust in the frontend and use the maturity and power of the Qt framework. Mind you, both projects are still in its early stages and I don't think mass adoption has started so I expect many problems to arise that are not obvious if you're playing with both. One Problem I had with Qt/QML bindings in the past was that for some things – like configuration of webviews <code>QtWebView::initialize();</code> – you need to have some C++. Both <code>Qt Rust Binding Generator</code> and <code>QMetaObject-rs</code> handle this problem in a different way. In the first you practically just start on the C++ side and immediately jump to the Rust, so you could prepare things on the C++ side first and the second allows you to call inline C++ closures with the <a href="https://crates.io/crates/cpp">cpp crate</a> <a href="https://github.com/woboq/qmetaobject-rs/blob/master/examples/graph/src/nodes.rs">here is an example</a></p>
+<p>These are currently the next best options. <code>Rust Qt Binding Generator</code> and <code>qmetaobject-rs</code> are currently the most advanced projects for Qt and the way to go if you really want to stay with Rust in the frontend and use the maturity and power of the Qt framework. Mind you, both projects are still in its early stages and I don't think mass adoption has started so I expect many problems to arise that are not obvious if you're playing with both. One Problem I had with Qt/QML bindings in the past was that for some things – like configuration of webviews <code>QtWebView::initialize();</code> – you need to have some C++. Both <code>Rust Qt Binding Generator</code> and <code>qmetaobject-rs</code> handle this problem in a different way. In the first you practically just start on the C++ side and immediately jump to the Rust, so you could prepare things on the C++ side first and the second allows you to call inline C++ closures with the <a href="https://crates.io/crates/cpp">cpp crate</a> <a href="https://github.com/woboq/qmetaobject-rs/blob/master/examples/graph/src/nodes.rs">here is an example</a></p>
 <p>Both approaches require you to handle at least some C++ code if your projects start to get a little more complex or you want to use more advanced features of Qt.</p>
 <p>I think from all the things we have seen so far the most &quot;advanced&quot; Project in terms of usability is <code>Gtk-rs</code>. This is highly subjective but from the things I have tried so far it looks and feels more robust. It has currently the best documentation, more projects that actually use it, some useful examples and a big/healthy community around it. If I need to make something today, I would probably give this a try. The last time I tried it, it was probably a little bit weird API-wise but that is mostly due to the way Gtk works anyways, and nothing that would really hold you back. If you want to have something nicer try out <code>Relm</code> if it fits you better. My main problem with Gtk is the way it looks on Windows and MacOS by default. I am a Linux user and use Gnome most of the time so it perfectly fits my needs on Linux, but I have heard it looks very unnatural on other platforms (if you don't go with your own customized style).</p>
 <p>Personally my main problem with these are that they &quot;feel&quot; really &quot;unrusty&quot; to begin with. If you have previously worked with projects from the e.g. &quot;web department&quot; of Rust it really feels unidiomatic at first. That's mostly due to the nature of binding frameworks that are supposed to be used with C/C++. The second problem is deployment. As a Rust user I am used to <code>cargo build --release</code> and be done. The problem with both approaches is to also ship the dependencies for Gtk/Qt. There is nothing particularly special about it and it's also fairly common if you're used to working with e.g. Qt and C++. But its quite different than your normal workflow in Rust, having most things statically linked.</p>
