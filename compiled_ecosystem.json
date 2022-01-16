@@ -1,4 +1,120 @@
 {
+  "gladis": {
+    "crates_io": "https://crates.io/crates/gladis",
+    "repo": "https://github.com/MicroJoe/gladis",
+    "description": "Easily import Glade-generated UI files into Rust code.",
+    "docs": "https://docs.rs/gladis",
+    "tags": [
+      "GTK"
+    ]
+  },
+  "Iced": {
+    "crates_io": "https://crates.io/crates/Iced",
+    "repo": "https://github.com/hecrj/iced",
+    "description": "A renderer-agnostic GUI library for Rust focused on simplicity and type-safety. Inspired by Elm.",
+    "docs": "https://docs.rs/iced",
+    "tags": []
+  },
+  "Azul": {
+    "crates_io": "https://crates.io/crates/Azul",
+    "repo": "https://github.com/fschutt/azul",
+    "description": "    Azul GUI is a free, functional, reactive GUI framework\n    for rapid development of desktop applications written in Rust and C,\n    using the Mozilla WebRender rendering engine.\n",
+    "docs": null,
+    "tags": [
+      "WebRender"
+    ]
+  },
+  "Relm4": {
+    "crates_io": "https://crates.io/crates/Relm4",
+    "repo": "https://github.com/AaronErhardt/relm4",
+    "description": "An idiomatic GUI library inspired by Elm and based on gtk4-rs",
+    "docs": "https://aaronerhardt.github.io/docs/relm4/relm4/",
+    "tags": [
+      "GTK",
+      "Bindings",
+      "MacOS",
+      "CSS"
+    ]
+  },
+  "druid": {
+    "crates_io": "https://crates.io/crates/druid",
+    "repo": "https://github.com/linebender/druid",
+    "description": "Druid is an experimental Rust-native UI toolkit. Its main goal is to offer a polished user experience. There are many factors to this goal, including performance, a rich palette of interactions (hence a widget library to support them), and playing well with the native platform.",
+    "docs": null,
+    "tags": [
+      "piet"
+    ]
+  },
+  "GTK": {
+    "crates_io": "https://crates.io/crates/GTK",
+    "repo": "https://github.com/gtk-rs/gtk3-rs",
+    "description": "Rust bindings and wrappers for GLib, GDK 3, GTK+ 3 and Cairo.",
+    "docs": "https://gtk-rs.org/docs-src/",
+    "tags": [
+      "Bindings",
+      "GTK"
+    ]
+  },
+  "conrod-core": {
+    "crates_io": "https://crates.io/crates/conrod-core",
+    "repo": "https://github.com/pistondevelopers/conrod.git",
+    "description": "An easy-to-use, 100% Rust, extensible 2D GUI library.",
+    "docs": null,
+    "tags": [
+      "Immediate mode API"
+    ]
+  },
+  "qt_widgets": {
+    "crates_io": "https://crates.io/crates/qt_widgets",
+    "repo": "https://github.com/rust-qt/ritual",
+    "description": "Ritual Qt bindings",
+    "docs": "https://rust-qt.github.io/qt/",
+    "tags": [
+      "Bindings",
+      "Qt"
+    ]
+  },
+  "WebRender": {
+    "crates_io": "https://crates.io/crates/WebRender",
+    "repo": "https://github.com/servo/webrender",
+    "description": "A GPU accelerated 2D renderer for web content",
+    "docs": "https://doc.servo.org/webrender/index.html",
+    "tags": [
+      "WebRender"
+    ]
+  },
+  "qmetaobject-rs": {
+    "crates_io": null,
+    "repo": null,
+    "description": "A framework empowering everyone to create Qt/QML applications with Rust. It does so by building QMetaObjects at compile time, registering QML types (optionally via exposing QQmlExtensionPlugins) and providing idiomatic wrappers.",
+    "docs": "https://docs.rs/qmetaobject/",
+    "tags": [
+      "proc-macro",
+      "Bindings",
+      "Qt",
+      "QML"
+    ]
+  },
+  "WinSafe": {
+    "crates_io": "https://crates.io/crates/WinSafe",
+    "repo": "https://github.com/rodrigocfd/winsafe",
+    "description": "Win32 GUI and related APIs in safe, idiomatic Rust.",
+    "docs": "https://docs.rs/winsafe",
+    "tags": [
+      "Bindings",
+      "WinApi"
+    ]
+  },
+  "core-foundation": {
+    "crates_io": "https://crates.io/crates/core-foundation",
+    "repo": "https://github.com/servo/core-foundation-rs",
+    "description": "Bindings to Core Foundation for macOS",
+    "docs": "https://docs.rs/core-foundation/",
+    "tags": [
+      "Bindings",
+      "MacOS"
+    ]
+  },
   "iui": {
     "crates_io": "https://crates.io/crates/iui",
     "repo": "https://github.com/LeoTindall/libui-rs",
@@ -25,13 +141,6 @@
       "Embedded"
     ]
   },
-  "Iced": {
-    "crates_io": "https://crates.io/crates/Iced",
-    "repo": "https://github.com/hecrj/iced",
-    "description": "A renderer-agnostic GUI library for Rust focused on simplicity and type-safety. Inspired by Elm.",
-    "docs": "https://docs.rs/iced",
-    "tags": []
-  },
   "rust-qt-binding-generator": {
     "crates_io": "https://crates.io/crates/rust-qt-binding-generator",
     "repo": "https://anongit.kde.org/rust-qt-binding-generator",
@@ -50,15 +159,6 @@
     "docs": "https://docs.rs/vgtk",
     "tags": [
       "GTK"
-    ]
-  },
-  "Azul": {
-    "crates_io": "https://crates.io/crates/Azul",
-    "repo": "https://github.com/fschutt/azul",
-    "description": "    Azul GUI is a free, functional, reactive GUI framework\n    for rapid development of desktop applications written in Rust and C,\n    using the Mozilla WebRender rendering engine.\n",
-    "docs": null,
-    "tags": [
-      "WebRender"
     ]
   },
   "tauri": {
@@ -93,13 +193,13 @@
       "Immediate mode API"
     ]
   },
-  "conrod-core": {
-    "crates_io": "https://crates.io/crates/conrod-core",
-    "repo": "https://github.com/pistondevelopers/conrod.git",
-    "description": "An easy-to-use, 100% Rust, extensible 2D GUI library.",
+  "Makepad": {
+    "crates_io": "https://crates.io/crates/Makepad",
+    "repo": "https://github.com/makepad/makepad",
+    "description": "Makepad is a new VR, web and native-rendering UI framework.",
     "docs": null,
     "tags": [
-      "Immediate mode API"
+      "WebGPU"
     ]
   },
   "fltk": {
@@ -110,6 +210,15 @@
     "tags": [
       "Bindings",
       "FLTK"
+    ]
+  },
+  "flutter_rust_bridge": {
+    "crates_io": "https://crates.io/crates/flutter_rust_bridge",
+    "repo": "https://github.com/fzyzcjy/flutter_rust_bridge",
+    "description": "High-level memory-safe binding generator for Flutter/Dart <-> Rust",
+    "docs": "https://github.com/fzyzcjy/flutter_rust_bridge",
+    "tags": [
+      "Bindings"
     ]
   },
   "native-windows-gui": {
@@ -123,14 +232,14 @@
       "WinApi"
     ]
   },
-  "qt_widgets": {
-    "crates_io": "https://crates.io/crates/qt_widgets",
-    "repo": "https://github.com/rust-qt/ritual",
-    "description": "Ritual Qt bindings",
-    "docs": "https://rust-qt.github.io/qt/",
+  "cacao": {
+    "crates_io": "https://crates.io/crates/cacao",
+    "repo": "https://github.com/ryanmcgrath/cacao",
+    "description": "Rust bindings for AppKit (macOS, beta) and UIKit (iOS/tvOS, alpha).",
+    "docs": "https://docs.rs/cacao/",
     "tags": [
-      "Bindings",
-      "Qt"
+      "MacOS",
+      "iOS"
     ]
   },
   "sciter-rs": {
@@ -143,45 +252,6 @@
       "CSS"
     ]
   },
-  "WebRender": {
-    "crates_io": "https://crates.io/crates/WebRender",
-    "repo": "https://github.com/servo/webrender",
-    "description": "A GPU accelerated 2D renderer for web content",
-    "docs": "https://doc.servo.org/webrender/index.html",
-    "tags": [
-      "WebRender"
-    ]
-  },
-  "core-foundation": {
-    "crates_io": "https://crates.io/crates/core-foundation",
-    "repo": "https://github.com/servo/core-foundation-rs",
-    "description": "Bindings to Core Foundation for macOS",
-    "docs": "https://docs.rs/core-foundation/0.6.4/core_foundation/",
-    "tags": [
-      "MacOS"
-    ]
-  },
-  "druid": {
-    "crates_io": "https://crates.io/crates/druid",
-    "repo": "https://github.com/linebender/druid",
-    "description": "Druid is an experimental Rust-native UI toolkit. Its main goal is to offer a polished user experience. There are many factors to this goal, including performance, a rich palette of interactions (hence a widget library to support them), and playing well with the native platform.",
-    "docs": null,
-    "tags": [
-      "piet"
-    ]
-  },
-  "qmetaobject-rs": {
-    "crates_io": null,
-    "repo": null,
-    "description": "A framework empowering everyone to create Qt/QML applications with Rust. It does so by building QMetaObjects at compile time, registering QML types (optionally via exposing QQmlExtensionPlugins) and providing idiomatic wrappers.",
-    "docs": "https://docs.rs/qmetaobject/",
-    "tags": [
-      "proc-macro",
-      "Bindings",
-      "Qt",
-      "QML"
-    ]
-  },
   "relm": {
     "crates_io": "https://crates.io/crates/relm",
     "repo": "https://github.com/antoyo/relm",
@@ -190,6 +260,16 @@
     "tags": [
       "Bindings",
       "GTK"
+    ]
+  },
+  "fui-core": {
+    "crates_io": "https://crates.io/crates/fui-core",
+    "repo": "https://github.com/marek-g/rust-fui",
+    "description": "MVVM-oriented (properties, observable collections, bindings), ui! macro, multiplatform, renderer-agnostic, with styles.",
+    "docs": "https://github.com/marek-g/rust-fui/blob/master/doc/SUMMARY.md",
+    "tags": [
+      "winit",
+      "proc-macro"
     ]
   },
   "SixtyFPS": {
@@ -203,16 +283,6 @@
       "Embedded",
       "CSS",
       "MacOS"
-    ]
-  },
-  "GTK": {
-    "crates_io": "https://crates.io/crates/GTK",
-    "repo": "https://github.com/gtk-rs/gtk3-rs",
-    "description": "Rust bindings and wrappers for GLib, GDK 3, GTK+ 3 and Cairo.",
-    "docs": "https://gtk-rs.org/docs-src/",
-    "tags": [
-      "Bindings",
-      "GTK"
     ]
   },
   "egui": {
