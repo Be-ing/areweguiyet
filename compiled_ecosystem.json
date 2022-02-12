@@ -262,6 +262,18 @@
       "GTK"
     ]
   },
+  "Slint": {
+    "crates_io": null,
+    "repo": "https://github.com/slint-ui/slint",
+    "description": "Slint is a toolkit to efficiently develop fluid graphical user interfaces for any display: embedded devices and desktop applications. It comes with a fast OpenGL renderer, a designer-friendly markup language and is written in Rust.",
+    "docs": "https://docs.rs/slint/",
+    "tags": [
+      "proc-macro",
+      "winit",
+      "Embedded",
+      "MacOS"
+    ]
+  },
   "fui-core": {
     "crates_io": "https://crates.io/crates/fui-core",
     "repo": "https://github.com/marek-g/rust-fui",
@@ -270,18 +282,6 @@
     "tags": [
       "winit",
       "proc-macro"
-    ]
-  },
-  "SixtyFPS": {
-    "crates_io": null,
-    "repo": "https://github.com/sixtyfpsui/sixtyfps",
-    "description": "SixtyFPS is a toolkit to efficiently develop fluid graphical user interfaces for any display: embedded devices and desktop applications. It comes with a fast OpenGL renderer, a designer-friendly markup language and is written in Rust.",
-    "docs": "https://docs.rs/sixtyfps/",
-    "tags": [
-      "proc-macro",
-      "winit",
-      "Embedded",
-      "MacOS"
     ]
   },
   "egui": {
