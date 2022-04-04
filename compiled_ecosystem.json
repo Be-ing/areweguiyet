@@ -26,9 +26,9 @@
   },
   "Relm4": {
     "crates_io": "https://crates.io/crates/Relm4",
-    "repo": "https://github.com/AaronErhardt/relm4",
+    "repo": "https://github.com/Relm4/relm4",
     "description": "An idiomatic GUI library inspired by Elm and based on gtk4-rs",
-    "docs": "https://aaronerhardt.github.io/docs/relm4/relm4/",
+    "docs": "https://relm4.org/docs/stable/relm4/",
     "tags": [
       "GTK",
       "Bindings",
