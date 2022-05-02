@@ -15,6 +15,15 @@
     "docs": "https://docs.rs/iced",
     "tags": []
   },
+  "druid": {
+    "crates_io": "https://crates.io/crates/druid",
+    "repo": "https://github.com/linebender/druid",
+    "description": "Druid is an experimental Rust-native UI toolkit. Its main goal is to offer a polished user experience. There are many factors to this goal, including performance, a rich palette of interactions (hence a widget library to support them), and playing well with the native platform.",
+    "docs": null,
+    "tags": [
+      "piet"
+    ]
+  },
   "Azul": {
     "crates_io": "https://crates.io/crates/Azul",
     "repo": "https://github.com/fschutt/azul",
@@ -34,15 +43,6 @@
       "Bindings",
       "MacOS",
       "CSS"
-    ]
-  },
-  "druid": {
-    "crates_io": "https://crates.io/crates/druid",
-    "repo": "https://github.com/linebender/druid",
-    "description": "Druid is an experimental Rust-native UI toolkit. Its main goal is to offer a polished user experience. There are many factors to this goal, including performance, a rich palette of interactions (hence a widget library to support them), and playing well with the native platform.",
-    "docs": null,
-    "tags": [
-      "piet"
     ]
   },
   "GTK": {
@@ -83,16 +83,14 @@
       "WebRender"
     ]
   },
-  "qmetaobject-rs": {
-    "crates_io": null,
-    "repo": null,
-    "description": "A framework empowering everyone to create Qt/QML applications with Rust. It does so by building QMetaObjects at compile time, registering QML types (optionally via exposing QQmlExtensionPlugins) and providing idiomatic wrappers.",
-    "docs": "https://docs.rs/qmetaobject/",
+  "core-foundation": {
+    "crates_io": "https://crates.io/crates/core-foundation",
+    "repo": "https://github.com/servo/core-foundation-rs",
+    "description": "Bindings to Core Foundation for macOS",
+    "docs": "https://docs.rs/core-foundation/",
     "tags": [
-      "proc-macro",
       "Bindings",
-      "Qt",
-      "QML"
+      "MacOS"
     ]
   },
   "WinSafe": {
@@ -105,14 +103,16 @@
       "WinApi"
     ]
   },
-  "core-foundation": {
-    "crates_io": "https://crates.io/crates/core-foundation",
-    "repo": "https://github.com/servo/core-foundation-rs",
-    "description": "Bindings to Core Foundation for macOS",
-    "docs": "https://docs.rs/core-foundation/",
+  "qmetaobject-rs": {
+    "crates_io": null,
+    "repo": null,
+    "description": "A framework empowering everyone to create Qt/QML applications with Rust. It does so by building QMetaObjects at compile time, registering QML types (optionally via exposing QQmlExtensionPlugins) and providing idiomatic wrappers.",
+    "docs": "https://docs.rs/qmetaobject/",
     "tags": [
+      "proc-macro",
       "Bindings",
-      "MacOS"
+      "Qt",
+      "QML"
     ]
   },
   "iui": {
@@ -292,5 +292,12 @@
     "tags": [
       "Immediate mode API"
     ]
+  },
+  "Dioxus": {
+    "crates_io": "https://crates.io/crates/Dioxus",
+    "repo": "https://github.com/DioxusLabs/dioxus/",
+    "description": "Elegant React-like library for building user interfaces for desktop, web, mobile, SSR, liveview, and more.",
+    "docs": "https://docs.rs/dioxus/latest/dioxus/",
+    "tags": []
   }
 }
