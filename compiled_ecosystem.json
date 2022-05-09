@@ -10,7 +10,7 @@
   },
   "Iced": {
     "crates_io": "https://crates.io/crates/Iced",
-    "repo": "https://github.com/hecrj/iced",
+    "repo": "https://github.com/iced-rs/iced",
     "description": "A renderer-agnostic GUI library for Rust focused on simplicity and type-safety. Inspired by Elm.",
     "docs": "https://docs.rs/iced",
     "tags": []
