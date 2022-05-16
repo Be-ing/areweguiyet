@@ -2,7 +2,7 @@
   "gladis": {
     "crates_io": "https://crates.io/crates/gladis",
     "repo": "https://github.com/MicroJoe/gladis",
-    "description": "Easily import Glade-generated UI files into Rust code.",
+    "description": "Deprecated. Use gtk-rs's CompositeTemplate derive macro instead.",
     "docs": "https://docs.rs/gladis",
     "tags": [
       "GTK"
